@@ -1,4 +1,6 @@
 HerokuApp::Application.routes.draw do
+  resources :scouts
+  root :to => "scouts#index"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

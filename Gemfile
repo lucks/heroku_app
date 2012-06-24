@@ -10,6 +10,7 @@ group :production do
 end
 
 group :development, :test do
+  gem 'nifty-generators'
   gem 'sqlite3'
   gem 'taps'
   gem 'rvm'
@@ -44,3 +45,5 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug'
+
+gem "mocha", :group => :test
